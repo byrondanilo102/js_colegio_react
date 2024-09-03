@@ -1,0 +1,71 @@
+@import "../../../scss/general.scss";
+
+/*------------------ MAIN MENU ----------------------*/
+
+form.main_menu_form_general {
+	display: inline-grid;
+	grid-template-columns: auto;
+	grid-gap: 15px;
+	padding: 20px;
+}
+
+form.main_menu_form_general > fieldset.fieldset_menu_general1 {
+	display: inline-grid;
+	justify-content: center;
+	grid-template-columns: auto;
+	background-color: $background_color_form;
+}
+
+form.main_menu_form_general > fieldset.fieldset_menu_general2 {
+	display: inline-grid;
+	justify-content: center;
+	grid-template-columns: auto auto;
+	background-color: $background_color_form;
+}
+
+form.main_menu_form_general > fieldset.fieldset_menu_general3 {
+	display: inline-grid;
+	justify-content: center;
+	grid-template-columns: auto auto;
+	background-color: $background_color_form;
+}
+
+/*
+form.main_menu_form_general > fieldset > legend {
+	grid-column: 1 / span 4;
+}
+*/
+
+form.main_menu_form_general > fieldset.fieldset_menu_general4 {
+	display: inline-grid;
+	justify-content: center;
+	grid-template-columns: auto auto auto auto;
+	background-color: $background_color_form;
+}
+
+form.main_menu_form_general > fieldset.fieldset_menu_general5 {
+	display: inline-grid;
+	justify-content: center;
+	grid-template-columns: auto auto auto auto;
+	background-color: $background_color_form;
+}
+
+/*------------------ FORM MAIN RESPONSIVE ----------------------*/
+@media screen and (max-width:500px) {            
+
+    form.main_menu_form_general > fieldset.fieldset_menu_general2 {
+        grid-template-columns: auto;
+    }
+
+    form.main_menu_form_general > fieldset.fieldset_menu_general3 {
+        grid-template-columns: auto;
+    }
+
+    form.main_menu_form_general > fieldset.fieldset_menu_general4 {
+        grid-template-columns: auto;
+    }
+
+    form.main_menu_form_general > fieldset.fieldset_menu_general5 {
+        grid-template-columns: auto;
+    }
+}

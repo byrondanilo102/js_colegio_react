@@ -1,0 +1,27 @@
+div.login_div_general {
+    width: 100%; 
+    text-align: center;
+    border-radius: 5px;    
+    padding: 5px;
+}
+
+form.login_form_general > fieldset {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: #f2f2f2;    
+    /*
+    grid-gap: 15px;
+    padding: 20px; 
+    */
+}
+
+/*------------------ FORM LOGIN RESPONSIVE ----------------------*/
+
+@media screen and (max-width:500px) {
+
+    form.login_form_general > fieldset {
+        grid-template-columns: auto;
+    }
+    
+}

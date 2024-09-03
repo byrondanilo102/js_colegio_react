@@ -1,0 +1,38 @@
+@import "../../../scss/general.scss";
+
+.celda_texto_tabla {
+    text-align: $text_align_table;
+    padding: $padding_table;
+    border: $border_size_table solid $border_color_table;
+    font-size: $font_size_table;
+}
+
+
+table.table_general {
+    border-collapse: collapse;
+    width: $width_table;
+}
+
+table.table_general {
+
+    th {
+        @extend .celda_texto_tabla;
+        text-align: $text_align_table;
+        padding: $padding_table;
+
+        background-color: $primary_color;
+        color: $color_title_table;        
+    } 
+    
+    td {
+        text-align: $text_align_table;
+        padding: $padding_table;
+        
+        @extend .celda_texto_tabla;
+    }
+
+    tr:nth-child(even){
+        background-color: $color_zebra_table;
+    }
+    
+}

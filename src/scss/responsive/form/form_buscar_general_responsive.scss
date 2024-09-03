@@ -1,0 +1,12 @@
+@media screen and (max-width:500px) {
+
+    form.form_buscar_general {
+        grid-template-columns: auto;
+        /*
+        display: inline-grid;        
+        grid-gap: 15px;
+        padding: 20px;
+        */
+    }
+
+}

@@ -1,0 +1,40 @@
+.alert_general {
+    padding: 5px;
+    background-color: #04AA6D;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 10px;
+    display: none;
+}
+ 
+.alert_info {
+    background-color: #2196F3;
+}
+
+.alert_success {
+    background-color: #04AA6D;
+}
+
+.alert_warning {
+    background-color: #ff9800;
+}
+
+.alert_error {
+    background-color: #f44336;
+}
+ 
+.close_alert_general {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.close_alert_general:hover {
+    color: black;
+}
